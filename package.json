@@ -7,7 +7,10 @@
     "test": "node_modules\\.bin\\cypress run",
     "headTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome",
-    "recordDashboardTest": "npm run test --record --key ef7479c8-327a-486d-8e23-d09b83310a2b --reporter mochawesome"
+    "recordDashboardTest": "npm run test --record --key ef7479c8-327a-486d-8e23-d09b83310a2b --reporter mochawesome",
+    "start": "my-server -p 3030",
+    "cy:run": "cypress run",
+    "test1": "start-server-and-test start http://localhost:3030 test"
   },
   "author": "",
   "license": "ISC",
