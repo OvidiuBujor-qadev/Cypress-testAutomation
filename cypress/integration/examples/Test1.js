@@ -34,8 +34,8 @@ describe('My First Test Suite', function()
       {
         cy.log(logoelement.text())
       })
-  //    cy.log(logo.text())
-  //    cy.get(':nth-child(3) > .product-action > button').click()  
+      //    cy.log(logo.text())
+  //    cy.get(':nth-child(3) > .product-action > button').click() 
 
   }
   )  
